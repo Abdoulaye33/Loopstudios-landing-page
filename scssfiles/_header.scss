@@ -1,0 +1,25 @@
+@import "../scssfiles/color.scss";
+
+header {
+    background-image: url(../images/desktop/image-hero.jpg);
+    background-size: cover;
+    color: $color-txt;
+
+    & ul > li {
+        list-style-type: none;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+    }
+    & ul {
+        display: flex;
+        justify-content: flex-end;
+        
+        & img {
+            display: flex;
+            justify-content: flex-start;
+            align-self: flex-start;
+        }
+    }
+
+}

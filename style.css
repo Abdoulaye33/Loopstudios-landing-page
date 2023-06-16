@@ -1,0 +1,25 @@
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+  color: rgb(255, 249, 249);
+}
+header ul > li {
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+header ul img {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+footer {
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
