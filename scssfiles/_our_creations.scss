@@ -1,5 +1,57 @@
+@import "./color.scss";
+@import "./mixin";
+
 #our_creation {
 
+
+   & div {
+    z-index: 1;
+    &:hover {
+        opacity: 0.5;
+        color: $color-txt;
+    }
+   }
+    
+   & .txt-img1 {
+    position: absolute;
+    margin-top: 28vw;
+    margin-right: 60vw;
+    z-index: 2;
+    color: $color-txt;
+    
+   }
+   & .txt-img2 {
+    position: absolute;
+    margin-right: 32vw;
+    margin-top: 28vw;
+    color: $color-txt;
+
+   }
+
+   & .txt-img3 {
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 28vw;
+    color: $color-txt;
+   }
+
+   & .txt-img4 {
+    position: absolute;
+    margin-left: 60vw;
+    margin-top: 28vw;
+    color: $color-txt;
+   }
+
+   &.txt-img5 {
+    position: absolute;
+    margin-right: 60vw;
+    margin-top: 30vw;
+   }
+
+   &.txt-img6 {
+    position: absolute;
+    margin-right: 20vw;
+   }
     & ._our_see {
         display: flex;
         justify-content: space-between;
@@ -31,8 +83,9 @@ margin: 7vw;
         justify-content: space-evenly;
         flex-wrap: wrap;
 
-        & li {
+        & img {
             margin-top: 2vw;
+           
         }
     }
 }

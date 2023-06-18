@@ -47,8 +47,8 @@ body {
 #interactive div {
   display: flex;
   flex-direction: column;
-  background-color: #000000;
-  color: rgb(255, 249, 249);
+  background-color: white;
+  color: #000000;
   position: absolute;
   z-index: 3;
   text-align: center;
@@ -70,6 +70,47 @@ body {
 
 #our_creation {
   margin: 7vw;
+}
+#our_creation div {
+  z-index: 1;
+}
+#our_creation div:hover {
+  opacity: 0.5;
+  color: rgb(255, 249, 249);
+}
+#our_creation .txt-img1 {
+  position: absolute;
+  margin-top: 28vw;
+  margin-right: 60vw;
+  z-index: 2;
+  color: rgb(255, 249, 249);
+}
+#our_creation .txt-img2 {
+  position: absolute;
+  margin-right: 32vw;
+  margin-top: 28vw;
+  color: rgb(255, 249, 249);
+}
+#our_creation .txt-img3 {
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: 28vw;
+  color: rgb(255, 249, 249);
+}
+#our_creation .txt-img4 {
+  position: absolute;
+  margin-left: 60vw;
+  margin-top: 28vw;
+  color: rgb(255, 249, 249);
+}
+#our_creation.txt-img5 {
+  position: absolute;
+  margin-right: 60vw;
+  margin-top: 30vw;
+}
+#our_creation.txt-img6 {
+  position: absolute;
+  margin-right: 20vw;
 }
 #our_creation ._our_see {
   display: flex;
@@ -99,7 +140,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-#our_creation .images li {
+#our_creation .images img {
   margin-top: 2vw;
 }
 
