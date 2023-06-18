@@ -1,0 +1,33 @@
+body {
+    word-wrap: break-word;
+}
+#interactive  {
+    display: flex;
+        & img {
+            margin-left: 5vw;
+            margin-top: 5vw;
+        }
+        & div {
+            display: flex;
+            flex-direction: column;
+            background-color: $backgrouncolor;
+            color: $color-txt;
+            position: absolute;
+            z-index: 3;
+            text-align: center;
+            width: 35vw;
+            height: 20vw;
+            margin-left: 42vw;
+            margin-top: 20vw;
+            & h2 {
+                padding-right: 2vw;
+                padding-left: 2vw;
+                padding-top: 2vw;
+                font-size: 2vw;
+            }
+            & p {
+                padding-left: 2vw;
+                padding-right: 2vw;
+            }
+        }
+}

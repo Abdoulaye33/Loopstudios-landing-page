@@ -2,4 +2,46 @@
 
 footer {
     background-color:$backgrouncolor ;
-}
+    background-size: 100% 100%;
+    color: $color-txt;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    & ul > li {
+        list-style-type: none;
+    }
+
+    #social {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        & li {
+            margin-right: 1vw;
+            padding-right: 2vw;
+
+            &:hover {
+                text-decoration: line-through;
+            }
+
+        }
+
+        & img {
+          margin-right: 67vw;
+          margin-top: 2vw;
+        }
+    }
+
+    #About {
+        display: flex;
+        align-items: flex-end;
+        
+        & li {
+            margin: 1vw;
+        }
+        & span {
+            margin-left: 50vw;
+            margin-bottom: 1vw;
+        }
+    }
+
+}   

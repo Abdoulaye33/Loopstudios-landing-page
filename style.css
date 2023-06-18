@@ -2,7 +2,6 @@ header {
   background-image: url(../images/desktop/image-hero.jpg);
   color: rgb(255, 249, 249);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: 100% 100%;
   padding-bottom: 15vw;
 }
@@ -20,6 +19,7 @@ header ul {
 }
 header ul img {
   margin-right: 35vw;
+  width: 12vw;
 }
 header div {
   border: 2px solid rgb(255, 249, 249);
@@ -29,12 +29,116 @@ header div {
   height: 20vw;
 }
 header div p {
-  font-size: 4rem;
+  font-size: 4vw;
+  padding-left: 3vw;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+#interactive {
+  display: flex;
+}
+#interactive img {
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+#interactive div {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: rgb(255, 249, 249);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  width: 35vw;
+  height: 20vw;
+  margin-left: 42vw;
+  margin-top: 20vw;
+}
+#interactive div h2 {
+  padding-right: 2vw;
   padding-left: 2vw;
+  padding-top: 2vw;
+  font-size: 2vw;
+}
+#interactive div p {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+#our_creation {
+  margin: 7vw;
+}
+#our_creation ._our_see {
+  display: flex;
+  justify-content: space-between;
+}
+#our_creation ._our_see li > h2 {
+  font-size: 3vw;
+  padding-left: 3vw;
+}
+#our_creation ._our_see li > a {
+  text-decoration: none;
+  background-color: rgb(255, 249, 249);
+  border: 1px solid #000000;
+  color: #000000;
+  font-size: 2vw;
+}
+#our_creation ._our_see li > a:hover {
+  background-color: #000000;
+  color: rgb(255, 249, 249);
+  font-size: 2vw;
+}
+#our_creation ul > li {
+  list-style-type: none;
+}
+#our_creation .images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#our_creation .images li {
+  margin-top: 2vw;
 }
 
 footer {
   background-color: #000000;
+  background-size: 100% 100%;
+  color: rgb(255, 249, 249);
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+footer ul > li {
+  list-style-type: none;
+}
+footer #social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+footer #social li {
+  margin-right: 1vw;
+  padding-right: 2vw;
+}
+footer #social li:hover {
+  text-decoration: line-through;
+}
+footer #social img {
+  margin-right: 67vw;
+  margin-top: 2vw;
+}
+footer #About {
+  display: flex;
+  align-items: flex-end;
+}
+footer #About li {
+  margin: 1vw;
+}
+footer #About span {
+  margin-left: 50vw;
+  margin-bottom: 1vw;
 }
 
 /*# sourceMappingURL=style.css.map */

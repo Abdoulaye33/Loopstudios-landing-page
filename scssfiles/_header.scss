@@ -4,7 +4,6 @@ header {
     background-image: url(../images/desktop/image-hero.jpg);
     color: $color-txt;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100% 100%;
     padding-bottom: 15vw;
     
@@ -24,6 +23,7 @@ header {
     }
     & ul img {
         margin-right: 35vw;
+        width: 12vw;
     }
 
     & div {
@@ -33,8 +33,8 @@ header {
         width: 30vw;
         height: 20vw;
         & p {
-            font-size: 4rem;
-            padding-left: 2vw;
+            font-size: 4vw;
+            padding-left: 3vw;
         }
     }
 }

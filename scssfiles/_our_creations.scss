@@ -1,0 +1,38 @@
+#our_creation {
+
+    & ._our_see {
+        display: flex;
+        justify-content: space-between;
+        & li > h2 {
+            font-size: 3vw;
+            padding-left: 3vw;
+        }
+        & li > a {
+            text-decoration: none;
+            background-color: $color-txt;
+            border: 1px solid $backgrouncolor;
+            color: $backgrouncolor;
+            font-size: 2vw;
+            &:hover {
+                background-color: $backgrouncolor;
+                color: $color-txt;
+                font-size: 2vw;
+            }
+        }
+    }
+
+margin: 7vw;
+    & ul > li {
+        list-style-type: none;
+    }
+
+    & .images {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        & li {
+            margin-top: 2vw;
+        }
+    }
+}
