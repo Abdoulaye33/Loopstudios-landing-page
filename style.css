@@ -1,21 +1,36 @@
 header {
   background-image: url(../images/desktop/image-hero.jpg);
-  background-size: cover;
   color: rgb(255, 249, 249);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 15vw;
 }
 header ul > li {
   list-style-type: none;
-  justify-content: flex-end;
-  align-items: flex-end;
+  padding: 3vw;
+}
+header ul > li:hover {
+  text-decoration: underline;
 }
 header ul {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 header ul img {
-  display: flex;
-  justify-content: flex-start;
-  align-self: flex-start;
+  margin-right: 35vw;
+}
+header div {
+  border: 2px solid rgb(255, 249, 249);
+  margin-left: 14vw;
+  margin-right: 50vw;
+  width: 30vw;
+  height: 20vw;
+}
+header div p {
+  font-size: 4rem;
+  padding-left: 2vw;
 }
 
 footer {

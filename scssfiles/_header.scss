@@ -2,24 +2,39 @@
 
 header {
     background-image: url(../images/desktop/image-hero.jpg);
-    background-size: cover;
     color: $color-txt;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-bottom: 15vw;
+    
     & ul > li {
         list-style-type: none;
-        justify-content: flex-end;
-        align-items: flex-end;
-        
-    }
-    & ul {
-        display: flex;
-        justify-content: flex-end;
-        
-        & img {
-            display: flex;
-            justify-content: flex-start;
-            align-self: flex-start;
+        padding: 3vw;
+
+        &:hover {
+            text-decoration: underline;
         }
     }
 
+    & ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    & ul img {
+        margin-right: 35vw;
+    }
+
+    & div {
+        border: 2px solid $color-txt;
+        margin-left: 14vw;
+        margin-right: 50vw;
+        width: 30vw;
+        height: 20vw;
+        & p {
+            font-size: 4rem;
+            padding-left: 2vw;
+        }
+    }
 }
